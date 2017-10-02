@@ -1,0 +1,44 @@
+<package>
+	<id>io.github.ethanrdoesmc.gandalfp7</id>
+	<name>Gandalf for Pangu 7</name>
+	<version>2.0-beta1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+                        <maxiOS>7.1.2</maxiOS>
+                        <otherVersions>unconfirmed</otherVersions>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>Gandalf</description>
+		<description>Keep your jailbreak safe and don't worry about bad tweaks!</description>
+		<description><![CDATA[
+		Conflicts added by the community<br/> 
+		 at the repo
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>No screenshots, but logos will be here soon</description>
+			<image>soon.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>Logo here soon</description>
+			<image>nope.no</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>2.0-Beta1</change>
+		<change>included for now until manager lives.</change>
+		<change>always wants to update.</change>
+	</changelog>
+	<links>
+		<link>
+			<name>Gandalf on Github</name>
+			<url>https://github.com/EthanRDoesMC/Gandalf</url>
+		</link>
+	</links>
+	
+		
+		</package>

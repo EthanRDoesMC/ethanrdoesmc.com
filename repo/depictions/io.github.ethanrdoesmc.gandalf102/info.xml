@@ -1,0 +1,32 @@
+<package>
+	<id>io.github.ethanrdoesmc.gandalf102</id>
+	<name>Gandalf for Yalu102</name>
+	<version>2.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+                        <maxiOS>10.2</maxiOS>
+                        <otherVersions>unconfirmed</otherVersions>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>Gandalf</description>
+		<description>Keep your jailbreak safe and don't worry about bad tweaks!</description>
+	</descriptionlist>
+	<changelog>
+		<change>2.3.3</change>
+		<change>We Did It</change>
+	</changelog>
+	<links>
+		<link>
+			<name>Gandalf on Github</name>
+			<url>https://github.com/EthanRDoesMC/Gandalf</url>
+		</link>
+		<link>
+			<name>Donate (Goes to Mehulrao and EthanRDoesMC, 50/50)</name>
+			<url>https://paypal.me/mehulrao</url>
+		</link>
+	</links>
+	
+		
+		</package>

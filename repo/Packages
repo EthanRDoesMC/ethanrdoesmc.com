@@ -1,0 +1,77 @@
+Package: io.github.ethanrdoesmc.ekolu
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/io.github.ethanrdoesmc.ekolu.deb
+Size: 4016360
+MD5sum: cd0f1ba89bfc3b71f653509133f46906
+SHA1: 9a8ad9519d8820c4b14e36ad8744d169a17d153c
+SHA256: bff26fcd849d7b5bae1938ed74384db90f8b2071a2ea1cbcecb4f5a8506fcd14
+Section: Themes
+Description: 'ekolu is a tropical-themed 100%-free setup.
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Depiction: https://ethanrdoesmc.github.io/repo/depictions/?p=io.github.ethanrdoesmc.ekolu/
+Name: 'ekolu
+
+Package: io.github.ethanrdoesmc.ekolureposrcs
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Filename: debs/io.github.ethanrdoesmc.ekolureposrcs.deb
+Size: 950
+MD5sum: 6e1d3110a7906621cc7815936de6461c
+SHA1: afcb06d782c1cb7efa71f42a09f08886aabc9eb4
+SHA256: cac8fb2eca3d6df9aa245e9770346f2cbbf56142344486787d34acb20497a552
+Section: Repositories
+Description: 'ekolu is a tropical-themed 100%-free setup. This is the first package.
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Depiction: https://ethanrdoesmc.github.io/repo/depictions/?p=io.github.ethanrdoesmc.ekolureposrcs/
+Name: 'ekolu Required Repos
+
+Package: io.github.ethanrdoesmc.ekolutweaks
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Depends: com.xtm3x.asquared, org.thebigboss.blurrybadges, applebetas.ios.tweak.blurrycc10, com.cabralcole.blurrydock, com.antique.blurst, com.wizages.bab, com.thecasle.ccdark, com.skylerk99.chargepulse, com.fromderik.ccc, applebetas.ios.tweak.cleannotifications10, com.fromderik.darkios10, com.sticktron.darkmessages, com.golddavid.dontstoptheparty.lite, com.spark.easyrecord, com.aditkamath.flame, com.skylerk99.floater, com.joshdoctors.freeloader, com.xtm3x.integrate, com.sinfool.kbblurbackground, xyz.evilgoldfish.lockglyphx, com.bushe.lockhtml4, com.bushe.lockscreengesturecleanup, com.aditkamath.lscrease, com.wizages.bae, io.c0ldra1n.mitsuha, me.dreamdesign.moderndock, com.officialscheduler.mterminal, com.sinfool.ncfrostedblur, com.candoizo.onion, com.skylerk99.rembat, org.thebigboss.respringprogress, com.ps.roundedtable, com.xtm3x.sleekkey, com.wizages.springchanger, com.rishanan.springplus, com.atwiiks.stillhere, org.thebigboss.swipeformore, com.gilshahar7.taptoopen, com.spark.tinysiri, com.samstone.translucentcydia, applebetas.ios.tweak.translucentmessages, com.yourepo.haste.wave, com.spark.wiilovemusic, com.ps.sixtyfps, io.github.ethanrdoesmc.ekolureposrcs, com.tigisoftware.filza, ws.hbang.typestatus2
+Filename: debs/io.github.ethanrdoesmc.ekolutweaks.deb
+Size: 1234
+MD5sum: c37566b34f7a7a3533a489f00cf1c8ca
+SHA1: 51bd3d3b52ef2bbf0c5dd1c648ccde603e08b730
+SHA256: 1160cf6829aeb02437a09f75a6489f389b37cc0238f5364c95a169f790e05216
+Section: Addons
+Description: 'ekolu is a tropical-themed 100%-free setup. This is the second package.
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Depiction: https://ethanrdoesmc.github.io/repo/depictions/?p=io.github.ethanrdoesmc.ekolutweaks/
+Name: 'ekolu Tweaks
+
+Package: io.github.ethanrdoesmc.gandalf
+Version: 2
+Architecture: iphoneos-arm
+Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Filename: debs/io.github.ethanrdoesmc.gandalf.deb
+Size: 798
+MD5sum: 39a7e8d4cf45cbb73a1561a8be5212af
+SHA1: 8d8ff9c5b14914a3c1a31cadef6496c668ecdd63
+SHA256: 6b0fd1b3371e35caa644ef01fe0f8036709035cc9e22bc7f9b55073a95150153
+Section: Misc
+Description: Some tweaks may break jailbreaks. Let this tweak say "You Shall Not Pass!" to incompatible tweaks and you can sit back and have fun with your jailbreak. Adds Gandalf repo.
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Name: Gandalf
+
+Package: io.github.ethanrdoesmc.icons
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Filename: debs/io.github.ethanrdoesmc.icons.deb
+Size: 158032
+MD5sum: 686973afeaf04045ed5eb9cc61db814e
+SHA1: 85f1add66116d3d1d8bff7e1db92fe92b31f0881
+SHA256: 1697ce9b4ff2d0bb7ae3415de0405d6e27d4368a51c4c95e1fed7b9c31c64c54
+Section: Packaging
+Priority: required
+Description: Installs repository icons.
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Depiction: https://ethanrdoesmc.github.io/repo/depictions/?p=io.github.ethanrdoesmc.icons
+Name: Repo Icons
+
