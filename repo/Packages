@@ -75,3 +75,18 @@ Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
 Depiction: https://ethanrdoesmc.github.io/repo/depictions/?p=io.github.ethanrdoesmc.icons
 Name: Repo Icons
 
+Package: tk.ethanrdoesmc.projectx.topnotch
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: EthanRDoesMC
+Depends: mobilesubstrate, com.alexzielenski.zeppelin
+Filename: debs/tk.ethanrdoesmc.projectx.topnotch_1.0.1_iphoneos-arm.deb
+Size: 8830
+MD5sum: 1f150118f12eb7945e6354bb08439fd7
+SHA1: c5bd0838aabe763729f834aa9a9630f619aee95d
+SHA256: 6a5de92db38f89e998390ed53b6425970085f64ca194bd2c17bfc5a488400950
+Section: Addons (Zeppelin)
+Description: The first of many tweaks and themes in the Project X series! This tweak ports the notch from the iPhone X to several devices. It comes in 3 sizes. Download Moveable9 and have Carrier be the only item in the center.
+Author: EthanRDoesMC
+Name: TopNotch
+
