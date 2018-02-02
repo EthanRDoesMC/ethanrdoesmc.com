@@ -90,3 +90,17 @@ Description: The first of many tweaks and themes in the Project X series! This t
 Author: EthanRDoesMC
 Name: TopNotch
 
+Package: tk.ethanrdoesmc.viewaccountsh3lix
+Version: 1.0
+Architecture: iphoneos-arm
+Filename: debs/tk.ethanrdoesmc.viewaccountsh3lix_1.0_iphoneos-arm.deb
+Size: 636
+MD5sum: c66989a55ad229de6347c18bff141529
+SHA1: c32be7cdbc61dbb8f5cbc9565660ddbd8155d2f9
+SHA256: 3eade79e96c2d98ece3cce1ce9382fc31217a9d8cfdb08bb39b53d0b6d9583ae
+Section: System
+Description: The depiction loads Cydia Accounts
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Depiction: http://cydia.saurik.com/account
+Name: H3lix - Cydia Accounts
+
