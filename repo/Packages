@@ -90,6 +90,22 @@ Description: The first of many tweaks and themes in the Project X series! This t
 Author: EthanRDoesMC
 Name: TopNotch
 
+Package: tk.ethanrdoesmc.translucencyparallax
+Version: 0.0.1-Alpha-2
+Architecture: iphoneos-arm
+Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: debs/tk.ethanrdoesmc.translucencyparallax_0.0.1-Alpha-2_iphoneos-arm.deb
+Size: 2944
+MD5sum: 08aaa27202d52f3c0eeb6c9d61ada0d3
+SHA1: 3d14626c6f4ceae017f67704c3a051b255a2375d
+SHA256: fa4ce04cd6541f603de44d3ae5bcfa418a02d3eba60b5928137014ef60ea9e9e
+Section: Tweaks
+Description: Make iOS 11 translucent!
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Name: Translucency Parallax
+
 Package: tk.ethanrdoesmc.viewaccountsh3lix
 Version: 1.0
 Architecture: iphoneos-arm
