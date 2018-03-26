@@ -139,7 +139,7 @@
 
 	body, input, select, textarea {
 		color: #414f57;
-		font-family: geosanslight-nmsregular, "Source Sans Pro", Helvetica, sans-serif;
+		font-family: geonms-webfont, geosanslight-nmsregular, "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 2;
