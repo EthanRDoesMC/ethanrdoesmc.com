@@ -4,6 +4,7 @@
 
 @font-face {
     font-family: 'geosanslight-nmsregular';
+	src: url('../fonts/geonms-webfont.ttf') format('truetype'),
     src: url('../fonts/geonms-webfont.eot');
     src: url('../fonts/geonms-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/geonms-webfont.woff') format('woff'),
