@@ -91,16 +91,16 @@ Author: EthanRDoesMC
 Name: TopNotch
 
 Package: tk.ethanrdoesmc.translucencyparallax
-Version: 0.0.2.1-2+debug
+Version: 0.0.2.2-1+debug
 Architecture: iphoneos-arm
 Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
-Installed-Size: 128
+Installed-Size: 132
 Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: debs/tk.ethanrdoesmc.translucencyparallax_0.0.2.1-2+debug_iphoneos-arm.deb
-Size: 6492
-MD5sum: 61f9ba48dabb58ffdc6862773fbaa90f
-SHA1: b108903ea27236b2da56a406f318ada06b05e239
-SHA256: 6a34ee3e4d934baf29f8ee37a28c503e9465755855581b00a91f7c38eb536f4d
+Filename: debs/tk.ethanrdoesmc.translucencyparallax_0.0.2.2-1+debug_iphoneos-arm.deb
+Size: 6788
+MD5sum: a26acf595469f7c4e148e9a9696d21da
+SHA1: 55be8f784dee673b746051d1762ce870e63ac46b
+SHA256: 6c404e9a777c751c5f9cc3619f38a8bd4fca8c25a18c8acb6da4039bcdc0a90a
 Section: Tweaks
 Description: Make iOS translucent!
 Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
