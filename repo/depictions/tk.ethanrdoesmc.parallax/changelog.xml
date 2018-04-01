@@ -1,0 +1,10 @@
+<changelog> 
+	<changes>
+		<version>0.0.2</version>
+		<change>Added basic AppList preferences.</change>
+	</changes>
+        <changes>
+		<version>0.0.1</version>
+		<change>Initial release</change>
+	</changes>
+</changelog>

@@ -1,0 +1,42 @@
+<package>
+	<id>tk.ethanrdoesmc.parallax</id>
+	<name>Translucency Parallax</name>
+	<version>0.0.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+                        <maxiOS>11.1.2</maxiOS>
+                        <otherVersions>unconfirmed</otherVersions>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>Translucency Parallax</description>
+		<description>Make iOS Translucent!</description>
+	</descriptionlist>
+	<changelog>
+		<change>0.0.2</change>
+		<change>Added preferences!</change>
+	</changelog>
+    <screenshots>
+        <screenshot>
+            <description>Settings</description>
+            <image>settings.png</image>
+        </screenshot>
+        <screenshot>
+            <description>iPad Settings</description>
+            <image>iPadSettings.png</image>
+        </screenshot>
+    </screenshots>
+	<links>
+		<link>
+			<name>Translucency Parallax on GitHub</name>
+			<url>https://github.com/EthanRDoesMC/TranslucencyParallax</url>
+		</link>
+		<link>
+			<name>Donate</name>
+			<url>https://paypal.me/ethanrdoesmc</url>
+		</link>
+	</links>
+	
+		
+		</package>
