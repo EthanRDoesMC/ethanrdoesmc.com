@@ -75,6 +75,22 @@ Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
 Depiction: https://ethanrdoesmc.github.io/repo/depictions/?p=io.github.ethanrdoesmc.icons
 Name: Repo Icons
 
+Package: tk.ethanrdoesmc.parallaxbgblur
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: EthanRDoesMC
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: debs/tk.ethanrdoesmc.parallaxbgblur_0.0.1-1+debug_iphoneos-arm.deb
+Size: 3430
+MD5sum: fa120b9c8c47421913e24af92433a6b7
+SHA1: 9b4880be32e1076e9f599b388955bb23c8c2739e
+SHA256: 06be4f3bf0bc1169b827047b46c332a2ee8517af1a77d95fc026c79878c670b5
+Section: Tweaks
+Description: Fixes blurred background on iOS versions that don't like my implementation
+Author: EthanRDoesMC
+Name: TPLX-BackgroundBlur
+
 Package: tk.ethanrdoesmc.projectx.topnotch
 Version: 1.0.1
 Architecture: iphoneos-arm
