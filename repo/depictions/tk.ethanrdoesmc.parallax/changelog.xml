@@ -1,4 +1,8 @@
-<changelog> 
+<changelog>
+    <changes>
+        <version>0.0.4</version>
+        <change>Scrolling and other things fixed, but AFAIK non-system apps don't work yet. 70% done!</change>
+    </changes>
 	<changes>
 		<version>0.0.2</version>
 		<change>Added basic AppList preferences.</change>
