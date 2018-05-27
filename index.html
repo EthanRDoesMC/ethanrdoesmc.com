@@ -23,6 +23,18 @@
 		<!--“A jailbreaker walks into a bar. The bartender asks him to wait, so the jailbreaker demands a new beer”
 		“he then proceeds to walk outside and drink sewer water because it’s different”
 		“‘cOmpETiTiOn iS gOoD BEcaUsE We aLl beNEfiT’, he says as he cuts himself in half”-->
+		
+		
+		<script>
+			function showDiv() {
+    var x = document.getElementById("discordDiv");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+		</script>
 	</head>
 	<body class="is-loading">
 
@@ -85,6 +97,12 @@
 								<li><a href="https://paypal.me/ethanrdoesmc" class="fa-paypal">PayPal</a></li>
 								<li><a href="http://bit.ly/iftttsubstrate" class="fa-bell">Substrate IFTTT</a></li>
 								<li><a href="https://github.com/EthanRDoesMC/ethanrdoesmc.tk/raw/master/Reset%20Launchpad%20Layout.dmg" class="fa-rocket">ResetLaunchpadLayout</a></li>
+								<br>
+								<li><a title="My Discord Server" href="#" onclick="showDiv()" class="fa-discord">Discord</a></li>
+								<div id ="discordDiv" style="display:none;">
+									<br>
+									<iframe src="https://discordapp.com/widget?id=444817051941339157&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+								</div>
 							</ul>
 						</footer>
 					</section>
