@@ -1,11 +1,11 @@
 <package>
 	<id>tk.ethanrdoesmc.parallax</id>
 	<name>Translucency Parallax</name>
-	<version>0.0.2</version>
+	<version>0.2</version>
 	<compatibility>
 		<firmware>
-			<miniOS>11.0</miniOS>
-                        <maxiOS>11.1.2</maxiOS>
+			<miniOS>7.0</miniOS>
+                        <maxiOS>11.3.1</maxiOS>
                         <otherVersions>unconfirmed</otherVersions>
 		</firmware>
 	</compatibility>
@@ -14,8 +14,8 @@
 		<description>Make iOS Translucent!</description>
 	</descriptionlist>
 	<changelog>
-		<change>0.0.4</change>
-		<change>Scrolling and other things fixed</change>
+		<change>0.2</change>
+		<change>Major backend overhaul, scrolling actual fix, light text style</change>
 	</changelog>
     <screenshots>
         <screenshot>

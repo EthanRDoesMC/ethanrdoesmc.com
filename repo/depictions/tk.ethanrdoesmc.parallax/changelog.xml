@@ -1,5 +1,9 @@
 <changelog>
     <changes>
+        <version>0.2</version>
+        <change>MAJOR backend overhaul. User applications may require recreating the effect from scratch.</change>
+    </changes>
+    <changes>
         <version>0.0.4</version>
         <change>Scrolling and other things fixed, but AFAIK non-system apps don't work yet. 70% done!</change>
     </changes>
