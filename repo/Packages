@@ -107,16 +107,16 @@ Author: EthanRDoesMC
 Name: TopNotch
 
 Package: tk.ethanrdoesmc.stonks
-Version: 1.0-3+debug
+Version: 1.0.1-1+debug
 Architecture: iphoneos-arm
 Maintainer: EthanRDoesMC
 Installed-Size: 120
 Depends: mobilesubstrate
-Filename: debs/tk.ethanrdoesmc.stonks_1.0-3+debug_iphoneos-arm.deb
-Size: 5018
-MD5sum: d510bf76b0c11959bac803b628e17cd4
-SHA1: a4dad25dd916acd13b35e640abde5b2fe975a488
-SHA256: 4b56e719098c6b87743e728b713f770405bb3559197378e2335e3564cc6064ea
+Filename: debs/tk.ethanrdoesmc.stonks_1.0.1-1+debug_iphoneos-arm.deb
+Size: 5336
+MD5sum: c887c26a643c579c899fd33c045af8f1
+SHA1: 79aafc1743e764dcb8310977ffdd9e4a2c43a01a
+SHA256: 89db1ffbaa3692d50e4a022540f0161d31578fe5b609bcdb682fd32c4dd1ef07
 Section: Tweaks
 Description: You should invest in stonks.
 Author: EthanRDoesMC
