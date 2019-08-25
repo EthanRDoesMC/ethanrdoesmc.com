@@ -106,6 +106,23 @@ Description: The first of many tweaks and themes in the Project X series! This t
 Author: EthanRDoesMC
 Name: TopNotch
 
+Package: tk.ethanrdoesmc.stonks
+Version: 1.0-3+debug
+Architecture: iphoneos-arm
+Maintainer: EthanRDoesMC
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: debs/tk.ethanrdoesmc.stonks_1.0-3+debug_iphoneos-arm.deb
+Size: 5018
+MD5sum: d510bf76b0c11959bac803b628e17cd4
+SHA1: a4dad25dd916acd13b35e640abde5b2fe975a488
+SHA256: 4b56e719098c6b87743e728b713f770405bb3559197378e2335e3564cc6064ea
+Section: Tweaks
+Description: You should invest in stonks.
+Author: EthanRDoesMC
+Depiction: https://i.kym-cdn.com/entries/icons/original/000/029/959/Screen_Shot_2019-06-05_at_1.26.32_PM.jpg
+Name: Stonks
+
 Package: tk.ethanrdoesmc.translucencyparallax
 Version: 0.4-10+debug
 Architecture: iphoneos-arm

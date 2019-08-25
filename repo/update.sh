@@ -1,8 +1,8 @@
 #!/bin/bash
 
-rm Packages
-rm Packages.gz
-rm Packages.bz2
+# rm Packages
+# rm Packages.gz
+# rm Packages.bz2
 
 dpkg-scanpackages debs > Packages
 
