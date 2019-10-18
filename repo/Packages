@@ -1,3 +1,20 @@
+Package: com.ethanrdoesmc.tpdepictiontest
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: EthanRDoesMC
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: debs/com.ethanrdoesmc.tpdepictiontest_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2104
+MD5sum: c68e0d8c26a8fe190cb501d4242104e6
+SHA1: 3fa43159c1e4d84847a57a7049031cf76f573868
+SHA256: da68fd98424866f1e95f01a5c2b67c7420ec478293e1e7d57cd80df0b7c426a9
+Section: Tweaks
+Description: just testing a new depiction
+Author: EthanRDoesMC
+Depiction: https://translucencyparallax.onuniverse.com
+Name: TPDepictionTest
+
 Package: io.github.ethanrdoesmc.ekolu
 Version: 1.0.1
 Architecture: iphoneos-arm
