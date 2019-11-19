@@ -141,16 +141,16 @@ Depiction: https://i.kym-cdn.com/entries/icons/original/000/029/959/Screen_Shot_
 Name: Stonks
 
 Package: tk.ethanrdoesmc.translucencyparallax
-Version: 0.1.6-EarlyAccess-2+debug
+Version: 0.1.8-EarlyAccess-1+debug
 Architecture: iphoneos-arm
 Maintainer: EthanRDoesMC
 Installed-Size: 652
-Depends: mobilesubstrate
-Filename: debs/tk.ethanrdoesmc.translucencyparallax_0.1.6-EarlyAccess-2debug_iphoneos-arm.deb
-Size: 45110
-MD5sum: 471ba523f36dff5577127e2700db1b3f
-SHA1: e99480f4fda92a0b2d6deb55b3d6a397f1ebdd69
-SHA256: 7210d3a2e11d3a24f9d6abe9b56b26c8dab8097b146fc220564ee66d6be9950d
+Depends: applist, mobilesubstrate | substitute
+Filename: debs/tk.ethanrdoesmc.translucencyparallax_0.1.8-EarlyAccess-1debug_iphoneos-arm.deb
+Size: 45502
+MD5sum: 297d41bf0c31a4689703da4c37d079da
+SHA1: 0fba85ad9807a8f4c91dbbe9ca0f217a0f84f75a
+SHA256: a50c66214df01f7b9f029209204e5b2965cbe2df47dba5cf7ddec4bca5f1ad92
 Section: Tweaks
 Description: Make your apps translucent. Add a personal touch to iOS.
 Author: EthanRDoesMC
