@@ -8,6 +8,11 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<title>404</title>
+		<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 </head>
 	<body class="is-loading">
 
@@ -17,11 +22,27 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<!--<span class="avatar"><p>404!</p></span>-->
+							<!--<span class="avatar"><h1>404!</h1></span>-->
 							<h1>Whoops...</h1>
-							<p>Couldn't find that page...</p>
+							<h2>Couldn't find that URL.</h2>
 						</header>
+						
+						
+						
+						<footer>
+						<!--<h3>You should go back a page.</h3>
+						<h3>Or at least back to my homepage.</h3>
+						<p>Or you could stare at this admittedly pretty error for as long as you want.</p>-->
+						
+<a href="javascript:history.back()"><h3>Previous Page</h3></a>
+						<a href="http://ethanrdoesmc.com/"><h3>Go to Homepage</h3></a>
+						</footer>
 						</section>
+						<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; EthanRDoesMC 2020</li>
+						</ul>
+						</footer>
 						</div>
 									<script>
 				if ('addEventListener' in window) {
