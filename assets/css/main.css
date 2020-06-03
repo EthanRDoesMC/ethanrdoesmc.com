@@ -827,16 +827,26 @@ animation-delay: 1s;
 
 /* Footer */
 
+@keyframes footerOpacity {
+from {opacity: 0;}
+to {opacity:1}
+}
+
 	#footer {
 		-moz-align-self: -moz-flex-end;
 		-webkit-align-self: -webkit-flex-end;
 		-ms-align-self: -ms-flex-end;
 		align-self: flex-end;
 		width: 100%;
+		opacity: 0;
 		padding: 1.5em 0 0 0;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		text-align: center;
+		animation-name: footerOpacity;
+		animation-duration: 1s;
+		animation-delay: 6s;
+		animation-fill-mode: forwards;
 		/*-webkit-backdrop-filter: blur(10px);*/
 	}
 
