@@ -802,7 +802,7 @@
 background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../../images/testbg.jpg");
+  background-image: url("images/testbg.jpg");
 }
 @keyframes expandtext {
 0% {opacity: 0; letter-spacing: normal;}
