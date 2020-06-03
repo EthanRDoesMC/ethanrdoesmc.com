@@ -792,10 +792,10 @@
 
 		body.is-loading #main {
 			opacity: 0;
-			-moz-transform: rotateX(90deg);
+			/*-moz-transform: rotateX(90deg);
 			-webkit-transform: rotateX(90deg);
 			-ms-transform: rotateX(90deg);
-			transform: rotateX(90deg);
+			transform: rotateX(90deg);*/
 		}
 
 /* Footer */
@@ -816,7 +816,7 @@
 		#footer .copyright {
 			margin: 0;
 			padding: 0;
-			font-size: 0.9em;
+			font-size: 0.75em;
 			list-style: none;
 		}
 
