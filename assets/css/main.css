@@ -726,7 +726,7 @@
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
-		opacity: 0.95;
+		opacity: 1;
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
@@ -797,6 +797,21 @@
 			-ms-transform: rotateX(90deg);
 			transform: rotateX(90deg);*/
 		}
+		
+@keyframes expandtext {
+0% {opacity: 0; letter-spacing: normal;}
+20% {opacity: 1;}
+100% {opacity: 1; letter-spacing: 4px;}
+}
+
+#expandingtext {
+opacity: 0;
+animation-name: expandtext;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+animation-timing: ease-out;
+animation-delay: 1s;
+}
 
 /* Footer */
 
