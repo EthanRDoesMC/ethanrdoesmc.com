@@ -826,11 +826,11 @@ animation-delay: 1s;
 }
 
 #infobutton {
-opacity: 0;
+visibility: hidden;
 }
 
 #infobutton:target {
-opacity: 1;
+visibility: visible;
 }
 
 .transition-fade {
