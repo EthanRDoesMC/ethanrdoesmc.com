@@ -804,13 +804,25 @@
 100% {opacity: 1; letter-spacing: 4px;}
 }
 
+@-webkit-keyframes expandtext {
+0% {-webkit-opacity: 0; -webkit-letter-spacing: normal;}
+20% {-webkit-opacity: 1;}
+100% {-webkit-opacity: 1; webkit-letter-spacing: 4px;}
+}
+
 #expandingtext {
 opacity: 0;
+-webkit-opacity: 0;
 animation-name: expandtext;
+-webkit-animation-name: expandtext;
 animation-duration: 4s;
+-webkit-animation-duration: 4s;
 animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
 animation-timing: ease-out;
+-webkit-animation-timing: ease-out;
 animation-delay: 1s;
+-webkit-animation-delay: 1s;
 }
 
 /* Footer */
