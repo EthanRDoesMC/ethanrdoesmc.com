@@ -804,17 +804,17 @@
 100% {opacity: 1; letter-spacing: 4px;}
 }
 
-@-webkit-keyframes expandtext {
-0% {-webkit-opacity: 0; -webkit-letter-spacing: normal;}
+@-webkit-keyframes expandtext2 {
+0% {-webkit-opacity: 0; letter-spacing: normal;}
 20% {-webkit-opacity: 1;}
-100% {-webkit-opacity: 1; webkit-letter-spacing: 4px;}
+100% {-webkit-opacity: 1; letter-spacing: 4px;}
 }
 
 #expandingtext {
 opacity: 0;
 -webkit-opacity: 0;
 animation-name: expandtext;
--webkit-animation-name: expandtext;
+-webkit-animation-name: expandtext2;
 animation-duration: 4s;
 -webkit-animation-duration: 4s;
 animation-fill-mode: forwards;
