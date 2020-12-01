@@ -9,6 +9,7 @@
 		<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
 <!--<script src="/assets/js/main.js"></script>-->
 		<script src="/assets/js/SwupHeadPlugin.js"></script>
+		<script src="/assets/js/SwupSwipePlugin.js"></script>
 		<title>EthanRDoesMC #BlackLivesMatter</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -61,7 +62,10 @@
 			<!--<script src="/assets/js/main.js"</script>-->
 		<script>
 		const swup = new Swup({
-  		plugins: [new SwupHeadPlugin()],
+  		plugins: [
+			new SwupHeadPlugin(),
+			new SwupSwipePlugin()
+		],
 		animateHistoryBrowsing: false
 		});
 		</script>
