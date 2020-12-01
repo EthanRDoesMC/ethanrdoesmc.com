@@ -797,7 +797,7 @@
 			-ms-transform: rotateX(90deg);
 			transform: rotateX(90deg);
 		}
-html.is-animating .body #main {
+html.is-animating body #main {
 			opacity: 0;
 			-moz-transform: rotateX(90deg);
 			-webkit-transform: rotateX(90deg);
