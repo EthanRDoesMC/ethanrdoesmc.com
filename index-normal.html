@@ -7,6 +7,7 @@
 <html>
 	<head>
 		<title>EthanRDoesMC</title>
+		<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
@@ -104,6 +105,9 @@
 
 		<!-- Scripts -->
 			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+		<script>
+		const swup = new Swup(); 
+		</script>
 			<script>
 				if ('addEventListener' in window) {
 					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
