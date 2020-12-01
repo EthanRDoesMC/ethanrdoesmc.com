@@ -60,11 +60,10 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 			<!--<script src="/assets/js/main.js"</script>-->
 		<script>
-			const options = {
-  				plugins: [new SwupHeadPlugin()],
-            			containers: ["#swup", "#main"]
-			};
-			const swup = new Swup(options); 
+		const swup = new Swup({
+  		plugins: [new SwupHeadPlugin()],
+            containers: ["#swup", "#main"]
+		}); 
 		</script>
 			<script>
 				if ('addEventListener' in window) {
