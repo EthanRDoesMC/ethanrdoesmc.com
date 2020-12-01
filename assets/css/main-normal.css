@@ -895,8 +895,8 @@
 
 html.is-animating .transition-fade {
   opacity: 0;
-			-moz-transform: rotateX(90deg);
+/* 			-moz-transform: rotateX(90deg);
 			-webkit-transform: rotateX(90deg);
 			-ms-transform: rotateX(90deg);
-			transform: rotateX(90deg);
+			transform: rotateX(90deg); */
 }
