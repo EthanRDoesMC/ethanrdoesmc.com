@@ -109,11 +109,10 @@
 		<!-- Scripts -->
 			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
 		<script>
-		const options = {
-  				plugins: [new SwupHeadPlugin()],
-            			containers: ["#swup", "#main"]
-			};
-			const swup = new Swup(options); 
+		const swup = new Swup({
+  		plugins: [new SwupHeadPlugin()],
+            containers: ["#swup", "#main"]
+		}); 
 		</script>
 			<script>
 				if ('addEventListener' in window) {
