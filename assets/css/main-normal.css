@@ -885,14 +885,14 @@
 0% {opacity: 0; letter-spacing: normal;}
 /*20% {opacity: 1;}*/
 50% {opacity: 1; letter-spacing: 4px;}
-100% {opacity: 0; letter-spacing: 8px;}
+100% {opacity: 0; letter-spacing: 6px;}
 }
 
 @-webkit-keyframes expandtext2 {
 0% {-webkit-opacity: 0; letter-spacing: normal;}
 /*20% {-webkit-opacity: 1;}*/
 50% {-webkit-opacity: 1;}
-100% {-webkit-opacity: 0; letter-spacing: 8px;}
+100% {-webkit-opacity: 0; letter-spacing: 6px;}
 }
 
 #expandingtext {
@@ -974,10 +974,4 @@ html.is-animating .transition-fade {
 html.is-animating .swup-transition-main {
         opacity: 0;
         transform: translate3d(0, -60px, 0);
-}
-#randombg {
-    background-image: url('https://source.unsplash.com/random?nature'); 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
 }
