@@ -1,78 +1,93 @@
 <!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
-<!--<script src="/assets/js/main.js"></script>-->
-		<script src="/assets/js/SwupHeadPlugin.js"></script>
-		<script src="/assets/js/SwupSlideTheme.js"></script>
-		<title>EthanRDoesMC #BlackLivesMatter</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-		<link rel="apple-touch-startup-image" href="/launch.png">
-		<meta name="apple-mobile-web-app-title" content="EthanRDoesMC">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-		<meta name="google-site-verification" content="jt13lyp8Vjxqs6GQHrnCOMLKb5tvj-jyb70pRQ_M38w" />
-	</head>
-	<body class="is-loading">
+<head>
+    <title>EthanRDoesMC</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="assets/css/main-normal.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="/launch.png">
+    <meta name="apple-mobile-web-app-title" content="EthanRDoesMC">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google-site-verification" content="jt13lyp8Vjxqs6GQHrnCOMLKb5tvj-jyb70pRQ_M38w"/>
+</head>
+<body class="is-loading">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Main -->
-					<section id="main">
-						<header>
-	<!--I'm going to leave this up for a bit.
-	Taking it down seems wrong.-->						<h1><a href="https://blacklivesmatter.com">#BlackLivesMatter</a></h1>
-							<h3 id="expandingtext">Silence is Compliance</h3>
-							<!--<p>testing <span id ="rotate">names</span> here</p>-->
-						</header>
-						<footer>
-							<!--<ul class="icons">-->
-								<!--<li><a href="https://blacklivesmatter.com" class="fa-info" id="infobutton">Information</a></li>-->
-							<!--</ul>-->
-						</footer>
-					</section>
+    <!-- Wrapper -->
+    <div id="wrapper" style="background-color: #000000" class="transition-fade">
+        <!-- Main -->
+        <div id="slide">
+        <section id="main">
+            <header>
+                <!--I'm going to leave this up for a bit.
+                	Taking it down seems wrong.-->
+                <h1 class="invert" id="movement"><a href="https://blacklivesmatter.com">#BlackLivesMatter</a></h1>
+                <h3 class="invert" id="expandingtext">Silence is Compliance</h3>
+                <!--<p>testing <span id ="rotate">names</span> here</p>-->
+            </header>
+            <footer>
+                <!--<ul class="icons">-->
+                <!--<li><a href="https://blacklivesmatter.com" class="fa-info" id="infobutton">Information</a></li>-->
+                <!--</ul>-->
+            </footer>
+            </div>
+        </section>
+        
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li><a href="/index-normal.html"><button style="color: #ffffff !important;">EthanRDoesMC</button></a></li>
-						</ul>
-				</footer>
-		</div>
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-			<!--<script src="/assets/js/main.js"</script>-->
-		<script>
-		const swup = new Swup({
-		containers: ["#wrapper"],
-  		plugins: [
-			new SwupHeadPlugin(),
-			new SwupSlideTheme()
-		],
-		animateHistoryBrowsing: true
-		});
-		</script>
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+        <!-- Footer -->
+        <footer id="footer" class="fade">
+            <ul class="copyright">
+                <li>
+                    <a href="/index-normal.html">
+                        <button style="border-color: transparent !important;"></button>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
 
-	</body>
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+    <script src="/assets/js/SwupHeadPlugin.js"></script>
+    <script src="/assets/js/SwupSlideTheme.js"></script>
+    <!--<script src="/assets/js/main.js"</script>-->
+    <script>
+    const options = {
+        containers: ["#wrapper"],
+        plugins: [new SwupSlideTheme({
+            mainElement: "#slide"
+        })],
+        animateHistoryBrowsing: false,
+    };
+        const swup = new Swup(options);
+        setTimeout(function(){
+            var blm = document.querySelector("#movement");
+            var swhk = blm.cloneNode(true);
+            swhk.innerHTML = "#StandWithHongKong";
+blm.parentNode.replaceChild(swhk, blm); 
+            var blms = document.querySelector("#expandingtext");
+            var swhks = blms.cloneNode(true);
+            swhks.innerHTML = "光復香港, 時代革命";
+blms.parentNode.replaceChild(swhks, blms); 
+   //swup.loadPage({url: '/index-normal.html'});
+}, 7000);
+         setTimeout(function(){
+             swup.loadPage({url: '/index-normal.html'});
+         }, 12500);
+    </script>
+    <script>
+    if ('addEventListener' in window) {
+        window.addEventListener('load', function() {
+            document.body.className = document.body.className.replace(/\bis-loading\b/, '');
+        });
+        document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+    }
+    </script>
+
+</body>
 </html>
+
