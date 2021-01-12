@@ -98,16 +98,10 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-repeat: repeat,			no-repeat,			no-repeat;
-		background-repeat: no-repeat;
-		background-size: 100px 100px, cover,				cover;
-		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed;
+		background-image: url('https://source.unsplash.com/featured/?nature,travel,people,technology,wallpapers,spirituality,architecture');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 	}
 
 		body:after {
@@ -142,7 +136,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: geonms-webfont, geosanslight-nmsregular, "Source Sans Pro", Helvetica, sans-serif;
+		font-family: /*geonms-webfont, geosanslight-nmsregular,*/ "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 2;
@@ -560,10 +554,13 @@
 					ul.icons li a:before {
 						color: #ffffff;
 						/*text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;*/
+/*                         backdrop-filter:invert(0);
+                        -webkit-backdrop-filter:invert(0); */
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+/* 						text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496; */
+                        color: grey;
 					}
 
 					ul.icons li a:before {
@@ -580,7 +577,9 @@
 					}
 
 					ul.icons li a:hover {
-						border-color: #ff7496;
+/* 						border-color: #ff7496; */
+                        filter:invert(0);
+                        -webkit-filter:invert(0);
 					}
 
 			@media screen and (max-width: 480px) {
@@ -726,7 +725,7 @@
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
-		opacity: 0.95;
+		opacity: 0.99;
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
@@ -756,10 +755,11 @@
 
 			#main .avatar img {
 				display: block;
-				width: 50%;
+				width: 40%;
 				margin: 0 auto;
-				border-radius: 100%;
-				box-shadow: 0 0 0 0.1em #ffffff;
+				border-radius: 3%;
+				box-shadow: 0 0 0 0 rgba(255, 255, 255, 255);
+                
 			}
 
 			#main .avatar:before {
@@ -801,29 +801,29 @@
 /* Footer */
 
 	#footer {
-		-moz-align-self: -moz-flex-end;
-		-webkit-align-self: -webkit-flex-end;
-		-ms-align-self: -ms-flex-end;
-		align-self: flex-end;
-		width: 100%;
-		padding: 1.5em 0 0 0;
+		-moz-align-self: center;
+		-webkit-align-self: center;
+		-ms-align-self: center;
+		align-self: center;
+		width: 50%;
+		padding: 2.5em 0 0 0;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		text-align: center;
-		/*-webkit-backdrop-filter: blur(10px);*/
 	}
 
 		#footer .copyright {
 			margin: 0;
 			padding: 0;
 			font-size: 0.9em;
+            font-weight: 550;
 			list-style: none;
 		}
 
 			#footer .copyright li {
 				display: inline-block;
-				margin: 0 0 0 0.45em;
-				padding: 0 0 0 0.85em;
+/* 				margin: 0 0 0 0.45em; */
+/* 				padding: 0 0 0 0.45em; */
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				line-height: 1;
 			}
@@ -881,11 +881,103 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+@keyframes expandtext {
+0% {opacity: 0; letter-spacing: normal;}
+/*20% {opacity: 1;}*/
+50% {opacity: 1; letter-spacing: 4px;}
+100% {opacity: 0; letter-spacing: 8px;}
+}
+
+@-webkit-keyframes expandtext2 {
+0% {-webkit-opacity: 0; letter-spacing: normal;}
+/*20% {-webkit-opacity: 1;}*/
+50% {-webkit-opacity: 1;}
+100% {-webkit-opacity: 0; letter-spacing: 8px;}
+}
+
+#expandingtext {
+opacity: 0;
+-webkit-opacity: 0;
+animation-name: expandtext;
+-webkit-animation-name: expandtext2;
+animation-duration: 5s;
+-webkit-animation-duration: 5s;
+animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
+animation-timing: ease-out;
+-webkit-animation-timing: ease-out;
+animation-delay: 1s;
+-webkit-animation-delay: 1s;
+}
+
+#movement {
+opacity: 0;
+-webkit-opacity: 0;
+animation-name: fadetext;
+-webkit-animation-name: fadetext2;
+animation-duration: 6s;
+-webkit-animation-duration: 6s;
+animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
+animation-timing: ease-out;
+-webkit-animation-timing: ease-out;
+animation-delay: 0.3s;
+-webkit-animation-delay: 0.3s;
+}
+
+@keyframes fadetext {
+0% {opacity: 0;}
+7% {opacity: 1;}
+/*20% {-webkit-opacity: 1;}*/
+82% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes fadetext2 {
+0% {-webkit-opacity: 0;}
+7% {-webkit-opacity: 1;}
+/*20% {-webkit-opacity: 1;}*/
+82% {-webkit-opacity: 1;}
+100% {-webkit-opacity: 0;}
+}
+
+
+.invert {
+    color: #fff;
+}
+
+@keyframes fade {
+from {opacity: 0;}
+to {opacity:1}
+}
+
+.fade {
+        animation-name: fade;
+		animation-duration: 1s;
+		
+		animation-fill-mode: forwards;
+}
 .transition-fade {
-  transition: 0.7s;
+  transition: 0.4s;
   opacity: 1;
 }
 
 html.is-animating .transition-fade {
   opacity: 0;
+}
+
+.swup-transition-slide {
+    opacity: 1;
+    transition: opacity .3s, transform .4s;
+    transform: translate3d(0, 0, 0);
+}
+html.is-animating .swup-transition-main {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+}
+#randombg {
+    background-image: url('https://source.unsplash.com/random?nature'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
