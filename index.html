@@ -16,7 +16,7 @@
 <body class="is-loading">
 
     <!-- Wrapper -->
-    <div id="wrapper"  class="transition-fade" style="background-color: #000000;transition: background 1s linear;background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <div id="wrapper"  class="transition-fade" style="background-image: url('');transition: background 1s linear;background-position: center; background-repeat: no-repeat; background-size: cover;">
         <!-- Main -->
         <div id="slide">
         <section id="main" class="blm" style="width: 100%;">
@@ -87,10 +87,6 @@ blm.parentNode.replaceChild(swhk, blm);
 blms.parentNode.replaceChild(swhks, blms); 
    //swup.loadPage({url: '/index-normal.html'});
 }, 14000);
-        setTimeout(function(){
-             document.getElementById('wrapper').style.backgroundImage="";
-            document.getElementById('wrapper').style.backgroundColor="#000000";
-         }, 18500);
          setTimeout(function(){
              swup.loadPage({url: '/index-normal.html'});
          }, 19500);
