@@ -1000,7 +1000,7 @@ html.is-animating .swup-transition-main {
 }
 
 .backgroundmovementimage {
-	position:absolute;
+	position:fixed;
 	display:none;
 	width:100%;
  	z-index:-1;
