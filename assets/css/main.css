@@ -942,7 +942,7 @@ to {opacity:1}
 			height: 100%;
 		}
 
-#backgroundmovementimage {
+.backgroundmovementimage {
 	position:absolute;
  z-index:-1;
  display:none;
