@@ -658,14 +658,7 @@
 			border-color: #ff7496;
 			color: #ff7496 !important;
 		}
-.backgroundmovementimage {
-	position:absolute;
-	display:none;
-	width:100%;
-    	height:100%;
- 	z-index:-1;
-	top:0;
-}
+
 		input[type="submit"].icon,
 		input[type="reset"].icon,
 		input[type="button"].icon,
@@ -1006,12 +999,3 @@ html.is-animating .swup-transition-main {
         transform: translate3d(0, -60px, 0);
 }
 
-.backgroundmovementimage {
-	position:absolute;
-	display:none;
-	width:100%;
-    	height:100%;
- 	z-index:-1;
-	top:0;
-	object-fit: fill;
-}
