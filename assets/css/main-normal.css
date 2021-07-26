@@ -1013,4 +1013,5 @@ html.is-animating .swup-transition-main {
     	height:100%;
  	z-index:-1;
 	top:0;
+	object-fit: fill;
 }
