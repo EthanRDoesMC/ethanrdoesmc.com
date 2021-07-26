@@ -67,7 +67,7 @@
         $( "#blm" ).hide();
         $( "#hk" ).hide();
         setTimeout(function(){
-            $( "#blm" ).fadeIn(1000);
+            $( "#blm" ).fadeIn(1000).delay(6000).fadeOut()
             var blm = document.querySelector("#movement");
             var swhk = blm.cloneNode(true);
             swhk.innerHTML = "#BlackLivesMatter";
@@ -78,12 +78,12 @@ blm.parentNode.replaceChild(swhk, blm);
 blms.parentNode.replaceChild(swhks, blms); 
    //swup.loadPage({url: '/index-normal.html'});
 }, 7000);
+//         setTimeout(function(){
+//             $( "#blm" ).fadeOut(1000);
+//    //swup.loadPage({url: '/index-normal.html'});
+// }, 13000);
         setTimeout(function(){
-            $( "#blm" ).fadeOut(1000);
-   //swup.loadPage({url: '/index-normal.html'});
-}, 13000);
-        setTimeout(function(){
-            $( "#hk" ).fadeIn(1000);
+            $( "#hk" ).fadeIn(1000).delay(4000).fadeOut()
             var blm = document.querySelector("#movement");
             var swhk = blm.cloneNode(true);
             swhk.innerHTML = "#StandWithHongKong";
@@ -94,10 +94,10 @@ blm.parentNode.replaceChild(swhk, blm);
 blms.parentNode.replaceChild(swhks, blms); 
    //swup.loadPage({url: '/index-normal.html'});
 }, 14000);
-        setTimeout(function(){
-            $( "#hk" ).fadeOut(1000);
-   //swup.loadPage({url: '/index-normal.html'});
-}, 18000);
+//         setTimeout(function(){
+//             $( "#hk" ).fadeOut(1000);
+//    //swup.loadPage({url: '/index-normal.html'});
+// }, 18000);
          setTimeout(function(){
              swup.loadPage({url: '/index-normal.html'});
          }, 19500);
