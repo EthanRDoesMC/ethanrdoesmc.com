@@ -665,7 +665,6 @@
     	height:100%;
  	z-index:-1;
 	top:0;
-	transition: 0.7s;
 }
 		input[type="submit"].icon,
 		input[type="reset"].icon,
