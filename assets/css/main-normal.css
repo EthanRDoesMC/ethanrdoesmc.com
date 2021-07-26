@@ -1005,5 +1005,5 @@ html.is-animating .swup-transition-main {
 	width:100%;
  	z-index:-1;
 	top:0;
-	object-fit: fill;
+	object-fit: cover;
 }
