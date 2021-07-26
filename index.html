@@ -18,8 +18,8 @@
     <!-- Wrapper -->
     <div id="wrapper"  class="transition-fade" style="background-color:#000000; transition: background-color 1s linear; transition: background 1s linear;background-position: center; background-repeat: no-repeat; background-size: cover;">
         <!-- Main -->
-        <img class="backgroundmovementimage" id="blm" src="https://source.unsplash.com/Rj6_qYZyCfU/" style="opacity:0;"/>
-        <img class="backgroundmovementimage" id="hk" src="https://source.unsplash.com/NC7Wr-26vGY/" style="opacity:0;" />
+        <img class="backgroundmovementimage" id="blm" src="https://source.unsplash.com/Rj6_qYZyCfU/"/>
+        <img class="backgroundmovementimage" id="hk" src="https://source.unsplash.com/NC7Wr-26vGY/"/>
         <div id="slide">
         <section id="main" class="blm" style="width: 100%;">
             <header>
@@ -66,7 +66,7 @@
     };
         const swup = new Swup(options);
         setTimeout(function(){
-            document.getElementById('blm').style.opacity="1";
+            document.getElementById('blm').fadeIn(600);
             var blm = document.querySelector("#movement");
             var swhk = blm.cloneNode(true);
             swhk.innerHTML = "#BlackLivesMatter";
@@ -78,11 +78,11 @@ blms.parentNode.replaceChild(swhks, blms);
    //swup.loadPage({url: '/index-normal.html'});
 }, 7000);
         setTimeout(function(){
-            document.getElementById('blm').style.opacity="0";
+            document.getElementById('blm').fadeOut(600);
    //swup.loadPage({url: '/index-normal.html'});
 }, 13300);
         setTimeout(function(){
-            document.getElementById('hk').style.opacity="1";
+            document.getElementById('hk').fadeIn(600);
             var blm = document.querySelector("#movement");
             var swhk = blm.cloneNode(true);
             swhk.innerHTML = "#StandWithHongKong";
@@ -94,7 +94,7 @@ blms.parentNode.replaceChild(swhks, blms);
    //swup.loadPage({url: '/index-normal.html'});
 }, 14000);
         setTimeout(function(){
-            document.getElementById('hk').style.opacity="0";
+            document.getElementById('hk').fadeOut(600);
    //swup.loadPage({url: '/index-normal.html'});
 }, 18900);
          setTimeout(function(){
