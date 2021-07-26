@@ -65,6 +65,8 @@
         animateHistoryBrowsing: false,
     };
         const swup = new Swup(options);
+        $( "#blm" ).hide();
+        $( "#hk" ).hide();
         setTimeout(function(){
             $( "#blm" ).fadeIn(600);
             var blm = document.querySelector("#movement");
@@ -109,6 +111,7 @@ blms.parentNode.replaceChild(swhks, blms);
         document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
     }
     </script>
+    
 
 </body>
 </html>
