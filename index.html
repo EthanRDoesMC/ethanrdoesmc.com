@@ -66,8 +66,14 @@
         const swup = new Swup(options);
         $( "#blm" ).hide();
         $( "#hk" ).hide();
+        setTimeout(function(){ 
+            $(" .backgroundmovementimage ").each(function(index) {
+        $(this).hide();
+        $(this).delay(7000 * index).fadeIn(600).delay(5000).fadeOut(600);
+    });
+        }, 7000)
         setTimeout(function(){
-            $( "#blm" ).fadeIn(1000).delay(6000).fadeOut()
+            //$( "#blm" ).fadeIn(1000).delay(6000).fadeOut()
             var blm = document.querySelector("#movement");
             var swhk = blm.cloneNode(true);
             swhk.innerHTML = "#BlackLivesMatter";
@@ -83,7 +89,7 @@ blms.parentNode.replaceChild(swhks, blms);
 //    //swup.loadPage({url: '/index-normal.html'});
 // }, 13000);
         setTimeout(function(){
-            $( "#hk" ).fadeIn(1000).delay(4000).fadeOut()
+            //$( "#hk" ).fadeIn(1000).delay(4000).fadeOut()
             var blm = document.querySelector("#movement");
             var swhk = blm.cloneNode(true);
             swhk.innerHTML = "#StandWithHongKong";
