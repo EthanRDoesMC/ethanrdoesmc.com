@@ -64,6 +64,7 @@
     };
         const swup = new Swup(options);
         setTimeout(function(){
+            document.getElementById('wrapper').style.backgroundImage="url(https://source.unsplash.com/Rj6_qYZyCfU/)";
             var blm = document.querySelector("#movement");
             var swhk = blm.cloneNode(true);
             swhk.innerHTML = "#BlackLivesMatter";
@@ -71,11 +72,11 @@ blm.parentNode.replaceChild(swhk, blm);
             var blms = document.querySelector("#expandingtext");
             var swhks = blms.cloneNode(true);
             swhks.innerHTML = "SILENCE IS COMPLIANCE.";
-            document.getElementById('wrapper').style.backgroundImage="url(https://source.unsplash.com/Rj6_qYZyCfU/)";
 blms.parentNode.replaceChild(swhks, blms); 
    //swup.loadPage({url: '/index-normal.html'});
 }, 7000);
         setTimeout(function(){
+            document.getElementById('wrapper').style.backgroundImage="url(https://source.unsplash.com/NC7Wr-26vGY/)";
             var blm = document.querySelector("#movement");
             var swhk = blm.cloneNode(true);
             swhk.innerHTML = "#StandWithHongKong";
@@ -83,10 +84,13 @@ blm.parentNode.replaceChild(swhk, blm);
             var blms = document.querySelector("#expandingtext");
             var swhks = blms.cloneNode(true);
             swhks.innerHTML = "光復香港, 時代革命";
-            document.getElementById('wrapper').style.backgroundImage="url(https://source.unsplash.com/NC7Wr-26vGY/)";
 blms.parentNode.replaceChild(swhks, blms); 
    //swup.loadPage({url: '/index-normal.html'});
 }, 14000);
+        setTimeout(function(){
+             document.getElementById('wrapper').style.backgroundImage="";
+            document.getElementById('wrapper').style.backgroundColor="#000000";
+         }, 18500);
          setTimeout(function(){
              swup.loadPage({url: '/index-normal.html'});
          }, 19500);
