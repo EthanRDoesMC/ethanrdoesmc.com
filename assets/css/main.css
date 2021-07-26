@@ -944,6 +944,7 @@ to {opacity:1}
 
 .backgroundmovementimage {
 	position:absolute;
+	display:none;
  z-index:-1;
  opacity:0;
 	transition: 0.7s;
