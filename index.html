@@ -64,11 +64,11 @@
         animateHistoryBrowsing: false,
     };
         const swup = new Swup(options);
-        $( "#blm" ).hide();
-        $( "#hk" ).hide();
+        $(" .backgroundmovementimage ").each(function(index) {
+        $(this).hide();
+        });
         setTimeout(function(){ 
             $(" .backgroundmovementimage ").each(function(index) {
-        $(this).hide();
         $(this).delay(7000 * index).fadeIn(600).delay(5000).fadeOut(600);
     });
         }, 7000);
